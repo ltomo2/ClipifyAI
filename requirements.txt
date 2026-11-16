@@ -1,0 +1,10 @@
+# Reference only. Use install_dependencies.bat to audit and reuse existing modules.
+# Do not pip install this blindly over a working Windows environment.
+PySide6>=6.5
+openai-whisper
+numpy
+requests
+opencv-python>=4.8,<5
+torch
+# Optional, not needed for the default path: faster-whisper, scenedetect
+# MediaPipe excluded to avoid cv2 package variant conflicts.

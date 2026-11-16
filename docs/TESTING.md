@@ -75,4 +75,6 @@ The UI remained open and the MP4 remained intact. Actual Windows default-player 
 
 ## GitHub publication
 
-The authenticated GitHub account was accessible, but both GraphQL and REST attempts to create a private repository were rejected with **Resource not accessible by integration (HTTP 403)**. This is a GitHub permission limitation, not a successful publication. The code is prepared locally for upload once an authorised empty private repository is available. Videos, analysis, models, logs, settings and backups are excluded.
+Initial automated repository-creation attempts were rejected with **Resource not accessible by integration (HTTP 403)**. The owner subsequently created [the private ClipifyAI repository](https://github.com/ltomo2/ClipifyAI), which the connected account can access and update. The initial repository commit is preserved when integrating the prepared application source. Videos, analysis, models, logs, settings and backups are excluded.
+
+To share this private repository, the owner must invite each collaborator under **Settings → Collaborators → Add people**. Sending the repository URL alone does not grant access. See [the Windows installation guide](../INSTALL_WINDOWS.md) for download and setup steps.
